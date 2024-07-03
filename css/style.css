@@ -28,14 +28,14 @@
   --bs-danger: #dc3545;
   --bs-light: #EAEAEA;
   --bs-dark: #233242;
-  --bs-font-sans-serif: "PFBeauSansPro", PFBeauSansPro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Montserrat", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
-@font-face {
+/* @font-face {
   font-family: 'PFBeauSansPro'; 
   src: url('/font/PFBeauSansPro-Bold.otf'), url('/font/PFBeauSansPro-Light.otf'), url('/font/PFBeauSansPro-Regular.otf'), url('/font/PFBeauSansPro-SemiBold.otf'), url('/font/');
-}
+} */
 
 *,
 *::before,
@@ -1917,7 +1917,7 @@ progress {
 .form-label {
   margin-bottom: 0.5rem;
   color: #484848;
-font-family: "PF BeauSans Pro";
+font-family: "Montserrat";
 font-size: 15px;
 font-style: normal;
 font-weight: 600;
@@ -1931,7 +1931,7 @@ line-height: normal;
   font-size: 0.938rem;
   line-height: 1.5;
   color: #484848;
-  font-family: "PF BeauSans Pro";
+  font-family: "Montserrat";
   font-weight: 600;
 }
 
@@ -4467,7 +4467,7 @@ textarea.form-control-lg {
   outline: 0;
   padding: 1.2rem;
   border-radius: 7px;
-  border-bottom: 4px solid #3DAE2B;
+  border-bottom: 4px solid #004B82;
 }
 
 .modal-backdrop {
@@ -8664,7 +8664,7 @@ textarea.form-control-lg {
 /*  typography */
 body {
   line-height: 1.7;
-  font-family: "PFBeauSansPro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   font-weight: 400;
@@ -8682,7 +8682,7 @@ p, .paragraph {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #040404;
-  font-family: "PFBeauSansPro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -8767,12 +8767,12 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #3DAE2B;
+  background: #004B82;
   color: #fff;
-  border-color: #3DAE2B;
+  border-color: #004B82;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary:focus, .btn-primary.focus {
-  background: #3DAE2B !important;
+  background: #004B82 !important;
   color: #fff;
 }
 .btn-primary.w-100:hover, .btn-primary.d-block:hover, .btn-primary.d-flex:hover, .btn-primary.effect-none:hover {
@@ -8784,7 +8784,7 @@ h6, .h6 {
   color: #3f9457;
 }
 .btn-outline-primary::after {
-  background-color: #3DAE2B;
+  background-color: #004B82;
 }
 .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary:focus, .btn-outline-primary.focus {
   background: #e0f2e5;
@@ -8799,7 +8799,7 @@ h6, .h6 {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  background-color: #3DAE2B;
+  background-color: #004B82;
 }
 
 body {
@@ -8808,12 +8808,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #3DAE2B;
+  background: #004B82;
   color: #fff;
 }
 
 ::selection {
-  background: #3DAE2B;
+  background: #004B82;
   color: #fff;
 }
 
@@ -8857,10 +8857,10 @@ select:focus {
 }
 
 a {
-  color: #3DAE2B;
+  color: #004B82;
 }
 a:hover {
-  color: #3DAE2B;
+  color: #004B82;
   text-decoration: underline;
 }
 
@@ -8892,7 +8892,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #3DAE2B !important;
+  background: #004B82 !important;
 }
 
 .bg-primary-light {
@@ -8916,7 +8916,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #3DAE2B !important;
+  color: #004B82 !important;
 }
 
 .text-black {
@@ -8925,7 +8925,7 @@ a:hover {
 
 .text-black a:hover,
 a.text-black:hover {
-  color: #3DAE2B !important;
+  color: #004B82 !important;
 }
 
 .text-default {
@@ -8979,11 +8979,11 @@ a.text-black:hover {
   font-weight: 800;
 }
 .content a {
-  border-bottom: 1px dotted #3DAE2B;
+  border-bottom: 1px dotted #004B82;
 }
 .content a:hover {
-  color: #3DAE2B;
-  border-bottom: 1px solid #3DAE2B;
+  color: #004B82;
+  border-bottom: 1px solid #004B82;
 }
 .content ol,
 .content ul {
@@ -9147,7 +9147,7 @@ a.text-black:hover {
   background-color: transparent;
   height: unset;
   width: unset;
-  color: #3DAE2B;
+  color: #004B82;
   top: 0;
   left: 0;
 }
@@ -9175,7 +9175,7 @@ a.text-black:hover {
   color: #fff;
 }
 .code-tabs .nav-item.active .nav-link {
-  background: #3DAE2B;
+  background: #004B82;
 }
 .code-tabs .nav-item .nav-link {
   text-decoration: none;
@@ -9183,7 +9183,7 @@ a.text-black:hover {
   border: 0;
   border-radius: 8px;
   text-transform: capitalize;
-  color: #3DAE2B;
+  color: #004B82;
 }
 .code-tabs .tab-content {
   padding: 20px 15px;
@@ -9222,7 +9222,7 @@ a.text-black:hover {
   font-size: 15px;
 }
 .card-social a:hover {
-  color: #3DAE2B;
+  color: #004B82;
 }
 
 .card:hover .card-social {
@@ -9258,7 +9258,7 @@ blockquote::before,
   position: absolute;
   left: 0;
   top: 2px;
-  color: #3DAE2B;
+  color: #004B82;
 }
 
 blockquote::before {
@@ -9275,7 +9275,7 @@ blockquote::before {
 }
 
 .navbar-brand {
-  font-family: "PFBeauSansPro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
@@ -9322,12 +9322,12 @@ blockquote::before {
 }
 .navigation .dropdown-item.active,
 .navigation .dropdown-item:active {
-  color: #3DAE2B;
+  color: #004B82;
   background-color: transparent;
 }
 .navigation .dropdown-item:focus,
 .navigation .dropdown-item:hover {
-  color: #3DAE2B;
+  color: #004B82;
   background-color: transparent;
 }
 .navigation .nav-item {
@@ -9382,7 +9382,7 @@ blockquote::before {
   width: calc(100% - 30px);
   height: 2px;
   z-index: -1;
-  background-color: #3DAE2B;
+  background-color: #004B82;
   transform: scaleX(0);
   transition: 0.25s;
 }
@@ -9393,7 +9393,7 @@ blockquote::before {
 }
 .navigation .nav-item:hover .nav-link {
   text-decoration: none;
-  color: #3DAE2B !important;
+  color: #004B82 !important;
 }
 .navigation .nav-item:hover .nav-link::before {
   transform: scaleX(1);
@@ -9402,10 +9402,10 @@ blockquote::before {
   color: #040404;
 }
 .navigation .navbar-light .navbar-nav .nav-link:hover {
-  color: #3DAE2B;
+  color: #004B82;
 }
 .navigation .navbar-light .navbar-nav .active .nav-link {
-  color: #3DAE2B;
+  color: #004B82;
 }
 .navigation .navbar-light .navbar-nav .active .nav-link::before {
   transform: scaleX(1);
@@ -9462,7 +9462,7 @@ blockquote::before {
   position: relative;
   z-index: 10;
   border-radius: 10px;
-  border-bottom: 4px solid #3DAE2B;
+  border-bottom: 4px solid #004B82;
 }
 .service-item .colored-box {
   display: inline-block;
@@ -9470,9 +9470,9 @@ blockquote::before {
   width: 70px;
   line-height: 70px;
   border-radius: 10px;
-  color: #3DAE2B;
+  color: #004B82;
   background-color: rgba(81, 181, 109, 0.2);
-  border-bottom: 4px solid #3DAE2B;
+  border-bottom: 4px solid #004B82;
 }
 .service-item .service-title {
   transition: color 0.3s;
@@ -9481,7 +9481,7 @@ blockquote::before {
   color: #888888;
 }
 .service-item a:hover .service-title {
-  color: #3DAE2B;
+  color: #004B82;
 }
 .service-item a:hover .service-description {
   color: #888888;
@@ -9552,7 +9552,7 @@ blockquote::before {
   background-color: rgba(145, 122, 235, 0.1);
 }
 .difference-of-us-item:nth-child(even) .icon {
-  color: #3DAE2B;
+  color: #004B82;
   background-color: rgba(81, 181, 109, 0.1);
 }
 
@@ -9657,7 +9657,7 @@ blockquote::before {
   color: #111;
 }
 .page-header .breadcrumbs a:hover {
-  color: #3DAE2B;
+  color: #004B82;
 }
 .page-header .breadcrumbs li:last-child a {
   pointer-events: none;
@@ -9759,7 +9759,7 @@ blockquote::before {
   border-radius: 50%;
   color: #fff;
   position: relative;
-  font-family: "PFBeauSansPro", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .loan-steps .count::after {
   position: absolute;
@@ -9781,7 +9781,7 @@ blockquote::before {
   content: "";
   height: 1px;
   width: 100%;
-  border: 1px dashed #3DAE2B;
+  border: 1px dashed #004B82;
   top: 50px;
   left: 50%;
   z-index: -1;
@@ -9790,7 +9790,7 @@ blockquote::before {
   display: none;
 }
 .loan-steps .step-item .count {
-  background-color: #3DAE2B;
+  background-color: #004B82;
 }
 @media (max-width: 991px) {
   .loan-steps .step-item:nth-child(2)::before, .loan-steps .step-item:nth-child(3)::before, .loan-steps .step-item:nth-child(6)::before {
@@ -9824,7 +9824,7 @@ blockquote::before {
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
-  background-color: #3DAE2B;
+  background-color: #004B82;
 }
 
 .icon-lg {
@@ -9871,7 +9871,7 @@ textarea.form-control {
 }
 
 .form-control:focus {
-  border-color: #3DAE2B;
+  border-color: #004B82;
 }
 
 .form-group {
@@ -9938,7 +9938,7 @@ textarea.form-control {
   color: #000;
 }
 .footer-widget ul li a:hover {
-  color: #3DAE2B;
+  color: #004B82;
   text-decoration: underline !important;
 }
 
@@ -9968,7 +9968,7 @@ textarea.form-control {
   transition: 0.2s ease;
 }
 #TableOfContents a.active {
-  color: #3DAE2B;
+  color: #004B82;
 }
 #TableOfContents ul {
   padding-left: 0;
@@ -9985,7 +9985,7 @@ textarea.form-control {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  background: #3DAE2B;
+  background: #004B82;
   left: 3px;
   top: 15px;
 }
@@ -10062,7 +10062,7 @@ textarea.form-control {
   outline: 0;
 }
 .slick-arrow:hover {
-  background: #3DAE2B;
+  background: #004B82;
 }
 
 .prevArrow {
@@ -10083,13 +10083,13 @@ textarea.form-control {
   text-align: center;
   padding: 0;
   margin-right: 10px;
-  border: 1px solid #3DAE2B;
-  color: #3DAE2B;
+  border: 1px solid #004B82;
+  color: #004B82;
 }
 .pagination .page-item .page-link:hover {
-  background: #3DAE2B;
+  background: #004B82;
   color: #fff;
-  border-color: #3DAE2B;
+  border-color: #004B82;
   text-decoration: none;
 }
 .pagination .page-item .page-link:focus {
@@ -10099,9 +10099,9 @@ textarea.form-control {
   border-radius: 8px;
 }
 .pagination .page-item.active .page-link {
-  background: #3DAE2B;
+  background: #004B82;
   color: #fff;
-  border-color: #3DAE2B;
+  border-color: #004B82;
 }
 
 .widget {
@@ -10120,7 +10120,7 @@ textarea.form-control {
   text-decoration: none;
 }
 .widget.widget-categories li a:hover, .widget.widget-tags li a:hover {
-  background-color: #3DAE2B;
+  background-color: #004B82;
   color: #fff;
 }
 .widget.widget-tags li a {
@@ -10153,7 +10153,7 @@ textarea.form-control {
 .falavalue {
 color: #555759;
 text-align: center;
-font-family: "PF BeauSans Pro";
+font-family: "Montserrat";
 font-size: 28px;
 font-style: normal;
 font-weight: 300;
@@ -10162,7 +10162,7 @@ line-height: 50px; /* 178.571% */
 .fala_modal-title{
 color: #3F3F3F;
 text-align: center;
-font-family: "PF BeauSans Pro";
+font-family: "Montserrat";
 font-size: 26px;
 font-style: normal;
 font-weight: 600;
@@ -10173,7 +10173,7 @@ align-items: center;
 
 .fala_modal-body {
 color: #484848;
-font-family: "PF BeauSans Pro";
+font-family: "Montserrat";
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -10183,7 +10183,7 @@ padding: 5px;
 
 .modalBodySemiBold {
 color: #484848;
-font-family: "PF BeauSans Pro";
+font-family: "Montserrat";
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
@@ -10193,7 +10193,7 @@ padding: 5px;
 
 .modalTerms_cond {
 color: #7F7F7F;
-font-family: "PF BeauSans Pro";
+font-family: "Montserrat";
 font-size: 9px;
 font-style: normal;
 font-weight: 400;
@@ -10203,7 +10203,7 @@ line-height: normal;
 .myHeading{
 color: #3F3F3F;
 text-align: center;
-font-family: "PF BeauSans Pro";
+font-family: "Montserrat";
 font-size: 50px;
 font-style: normal;
 font-weight: 300;
