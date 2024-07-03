@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Tu Aliado Falabella</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="description" content="This is meta description">
+	<meta name="author" content="Themefisher">
+	<link rel="shortcut icon" href="images/faviconn.png" type="image/x-icon">
+	<link rel="icon" href="/images/faviconn.png" type="image/x-icon">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="wallet" />
+
+	<!-- # Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- # CSS Plugins -->
+	<link rel="stylesheet" href="plcugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/font-awesome/fontawesome.min.css">
+	<link rel="stylesheet" href="plugins/font-awesome/brands.css">
+	<link rel="stylesheet" href="plugins/font-awesome/solid.css">
+
+	<!-- # Main Style Sheet -->
+	<link rel="stylesheet" href="css/style.css">
+  <style>
+    @font-face {
+        font-family: PFBeauSansPro;
+        src: url('/font/PFBeauSansPro-Bold.otf'), url('/font/PFBeauSansPro-Light.otf'), url('/font/PFBeauSansPro-Regular.otf'), url('/font/PFBeauSansPro-SemiBold.otf'), url('/font/PFBeauSansPro-Thin.otf');
+    }
+</style>
+</head>
+
+<body>
+
+<!-- navigation -->
+<header class="navigation bg-tertiary">
+	<nav class="navbar navbar-expand-xl navbar-light fixed-top text-center py-3">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img loading="prelaod" decoding="async" class="img-fluid" width="160" src="images/logo_falabella.svg" alt="Wallet">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+					
+				</ul>
+				<!-- account btn --> <p style="margin-top:15px; margin-right: 30px; color: #484848; text-align: center; font-size: 17px; font-style: normal; font-weight: 700; line-height: normal;">¿Quieres contactarnos?<br /><span style="color: #3DAE2B; font-size: 17px; font-style: normal; font-weight: 700; line-height: normal;"> <a href="tel:+52 554567 7890">Llama al 55 4567 7890</a></span></p>
+				<!-- account btn --> <a href="step_1.html" class="btn btn-primary ms-2 ms-lg-3">¡ACTIVAR AHORA!</a>
+			</div>
+		</div>
+	</nav>
+</header>
+<!-- /navigation -->
+
+
+<div class="modal applyLoanModal fade" id="applyLoan" tabindex="-1" aria-labelledby="applyLoanLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <h4 class="modal-title" id="exampleModalLabel">How much do you need?</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="#!" method="post">
+          <div class="row">
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="loan_amount" class="form-label">Amount</label>
+                <input type="number" class="form-control shadow-none" id="loan_amount" placeholder="ex: 25000">
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="loan_how_long_for" class="form-label">How long for?</label>
+                <input type="number" class="form-control shadow-none" id="loan_how_long_for" placeholder="ex: 12">
+              </div>
+            </div>
+            <div class="col-lg-12 mb-4 pb-2">
+              <div class="form-group">
+                <label for="loan_repayment" class="form-label">Repayment</label>
+                <input type="number" class="form-control shadow-none" id="loan_repayment" disabled>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="loan_full_name" class="form-label">Full Name</label>
+                <input type="text" class="form-control shadow-none" id="loan_full_name">
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="loan_email_address" class="form-label">Email address</label>
+                <input type="email" class="form-control shadow-none" id="loan_email_address">
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <button type="submit" class="btn btn-primary w-100">Get Your Loan Now</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <section class="banner bg-tertiary position-relative overflow-hidden " style="margin-top: 100px;">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-6">
+        <div class="ps-lg-5 text-center">
+          <img loading="lazy" decoding="async"
+            src="images/slider_1.png"
+            alt="banner image" class="w-100">
+        </div>
+      </div>
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="block text-center text-lg-start pe-0 pe-xl-5">
+          <h1 class="text-capitalize mb-4" style="color: #3DAE2B;">Tu Aliado Falabella</h1>
+          <p class="mb-4" style="color: #7F7F7F;
+          font-family: PF BeauSans Pro;
+          font-size: 20px;
+          font-style: normal;
+          
+          line-height: 25px; /* 125% */ ">Es un programa para clientes Falabella con el que ahorras a través
+            de descuentos y servicios para enfrentar emergencias y adversidades.
+            Tú, tu cónyuge, hijos menores de 21 años y Tarjetahabientes adicionales, cuentan con un aliado las 24 horas del día, los 365 días del año y pueden usar todos los servicios que incluye el programa.</p> <a type="button"
+            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#applyLoan">¡ACTIVAR AHORA! <span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span></a>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+  
+</section> -->
+
+<section class="section">
+	<div class="container col-12" style="margin-top: 50px;">
+		<div class="row justify-content-center align-items-center">
+			<!-- <div class="col-lg-6">
+				<div class="section-title text-center">
+					<p><span style="color: #3F3F3F; text-align: center; font-family: PF BeauSans Pro; font-size: 50px; font-style: normal; font-weight: 300; line-height: normal;">Estás a un paso de adquirir</span><br />
+                        <span style="color: #3DAE2B; font-family: PF BeauSans Pro; font-size: 50px; font-style: normal; font-weight: 700; line-height: normal;">Tu Aliado Falabella</span></p><br />
+				</div>
+			</div> -->
+			<div class="col-lg-10" style="margin-top: -20px;">
+				<div class="shadow rounded p-5 bg-white">
+					<div class="row">
+						<!-- <div class="col-12 mb-4">
+							<h4>Leave Us A Message</h4>
+						</div> -->
+						<div class="col-lg-6">
+							<div class="validBodyStyle_ttl">
+								<p style="color: #3DAE2B; font-family: PF BeauSans Pro; font-size: 38px; font-style: normal; font-weight: 700; line-height: normal;">¡Felicidades!</p>
+                                <p style="color: #3F3F3F; font-family: PF BeauSans Pro; font-size: 38px; font-style: normal; font-weight: 700; line-height: normal;">
+                                    Luis Fernando Velázquez Errástegui<br /><br />
+                                    <span style="color: #3DAE2B; font-family: PF BeauSans Pro; font-size: 30px; font-style: normal; font-weight: 700; line-height: 18px;"> Tu Aliado Falabella</span>
+                                    <span style="color: #3F3F3F; font-family: PF BeauSans Pro; font-size: 30px; font-style: normal; font-weight: 700; line-height: normal;"> se activó correctamente y desde este momento ya cuentas con todos los beneficios.</span>
+                                </p>
+                                
+                                    <p style="color: #929292; font-family: PF BeauSans Pro; font-size: 19px; font-style: normal; font-weight: 400; line-height: 20px;"> Hemos enviado a tu correo el Smart Kit de Bienvenida, en el encontrarás toda la información de Tu Aliado Falabella y los
+                                        beneficios que has adquirido.</span>
+                                </p>
+                             
+                               <div class="mt-5"> <button onclick="window.location.href = 'index.html';" class="btn btn-primary w-100" type="submit" >VOLVER AL INICIO</button></div>
+							</div>
+						</div>
+						<div class="col-lg-6 mt-5 mt-lg-0">
+							<div class="ml-5" style="float: right; vertical-align: top margin-top: -25px;"><img src="images/thanks_image.png"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="section-sm bg-tertiary">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-lg-2 col-md-4 col-6 mb-4">
+				<!-- <div class="footer-widget">
+					<h5 class="mb-4 text-primary font-secondary">Service</h5>
+					<ul class="list-unstyled">
+						<li class="mb-2"><a href="service-details.html">Personal loans</a>
+						</li>
+						<li class="mb-2"><a href="service-details.html">Home Equity Loans</a>
+						</li>
+						<li class="mb-2"><a href="service-details.html">Student Loans</a>
+						</li>
+						<li class="mb-2"><a href="service-details.html">Mortgage Loans</a>
+						</li>
+						<li class="mb-2"><a href="service-details.html">Payday Loans</a>
+						</li>
+					</ul>
+				</div>
+			</div> -->
+			<!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="footer-widget">
+					<h5 class="mb-4 text-primary font-secondary">About</h5>
+					<ul class="list-unstyled">
+						<li class="mb-2"><a href="#!">Benefits</a>
+						</li>
+						<li class="mb-2"><a href="#!">Careers</a>
+						</li>
+						<li class="mb-2"><a href="#!">Our Story</a>
+						</li>
+						<li class="mb-2"><a href="#!">Team</a>
+						</li>
+					</ul>
+				</div>
+			</div> -->
+			<!-- <div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="footer-widget">
+					<h5 class="mb-4 text-primary font-secondary">Help</h5>
+					<ul class="list-unstyled">
+						<li class="mb-2"><a href="contact.html">Contact Us</a>
+						</li>
+						<li class="mb-2"><a href="faq.html">FAQs</a>
+						</li>
+					</ul>
+				</div>
+			</div> -->
+			<!-- <div class="col-lg-4 col-md-12 newsletter-form">
+				<div style="background-color: #F4F4F4; padding: 35px;">
+					<h5 class="mb-4 text-primary font-secondary">Subscribe</h5>
+					<div class="pe-0 pe-xl-5">
+						<form action="#!" method="post" name="mc-embedded-subscribe-form" target="_blank">
+							<div class="input-group mb-3">
+								<input type="text" class="form-control shadow-none bg-white border-end-0" placeholder="Email address"> <span class="input-group-text border-0 p-0">
+                    <button class="input-group-text border-0 bg-primary" type="submit" name="subscribe"
+                      aria-label="Subscribe for Newsletter"><i class="fas fa-arrow-right"></i></button>
+                  </span>
+							</div>
+							<div style="position: absolute; left: -5000px;" aria-hidden="true">
+								<input type="text" name="b_463ee871f45d2d93748e77cad_a0a2c6d074" tabindex="-1">
+							</div>
+						</form>
+					</div>
+					<p class="mb-0">Lorem ipsum dolor sit amet, rdghds consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+				</div>
+			</div> -->
+		</div>
+		<div class="row align-items-center mt-5 text-center text-md-start">
+			<div class="col-lg-4">
+        <!-- <a href="index.html">
+          <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="images/logo.png" alt="Wallet">
+        </a> -->
+			</div>
+			<div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+				<ul class="list-unstyled list-inline mb-0 text-lg-center">
+					<li class="list-inline-item me-4"><a class="text-black" href="privacy-policy.html">Privacy Policy</a>
+					</li>
+					<li class="list-inline-item me-4"><a class="text-black" href="terms.html">Terms &amp; Conditions</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
+				<ul class="list-unstyled list-inline mb-0 social-icons">
+					<li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-black" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-black" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- # JS Plugins -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/scrollmenu/scrollmenu.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+</script>
+
+</body>
+</html>
